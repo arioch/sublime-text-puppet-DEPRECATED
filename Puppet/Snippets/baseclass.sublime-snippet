@@ -62,6 +62,10 @@ class ${1:name} \{
     include install
     include config
     include service
+
+    Class["install"] ->
+    Class["config"] ->
+    Class["service"]
 \}
 ${0}]]></content>
     <tabTrigger>baseclass</tabTrigger>
