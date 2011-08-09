@@ -4,10 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>cron { "${1:name}":
-	command => "${2:command}",
-	user    => "${3:user}",
-	hour    => "${4:hour}",
-	minute  => "${5:minute}",
+	command  => "${2:command}",
+	user     => "${3:root}",
+	monthday => "${4:*}",
+	month    => "${5:*}",
+	hour     => "${6:*}",
+	minute   => "${7:*}",
 }$0</string>
 	<key>name</key>
 	<string>cron</string>
