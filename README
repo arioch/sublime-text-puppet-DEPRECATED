@@ -1,5 +1,9 @@
+
 This is a Sublime Text (2) plugin to add support for Puppet syntax highlighting.
 It's basicly a fork from Brice Figureau's puppet-textmate-bundle repository with a few changes to make it work in Sublime Text (2).
 
 I do not wish to take any credit for his (and others') hard work.
 
+
+This repository is deprecated as I'm no longer using SublimeText.
+If anyone wants to take over feel free to clone and go from there.
